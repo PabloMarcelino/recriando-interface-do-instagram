@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 240, 240);
     margin: 0;
     padding: 0;
     display: flex;
@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
+    width: 40%;
     height: 100vh;
 }
 
@@ -34,6 +34,7 @@ body {
 
 .instagram-phone img {
     height: 50rem;
+    margin-left: 150px;
 }
 
 
@@ -52,18 +53,19 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
+    width: 60%;
     padding: 1.3rem 0;
-    border: 1px solid rgba(100, 100, 100, 0.658);
+    border: 1px solid rgba(121, 120, 120, 0.363);
     
 }
 
 .group:nth-child(1) {
-    min-height: 19rem;
+    min-height: 30rem;
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 5rem;
+    margin: 36px 0 12px 0;
 }
 
 .profile-photo {
@@ -109,7 +111,7 @@ body {
 .download {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
 }
@@ -118,6 +120,10 @@ body {
     height: 3rem;
     width: 10rem;
     background-size: cover;
+}
+
+.download a {
+    margin: 0 5px;
 }
 
 .app-download:nth-child(1) {
